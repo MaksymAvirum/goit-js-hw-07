@@ -1,5 +1,5 @@
-const inputItem = document.querySelector('input');
-const textName = document.querySelector('span');
+const inputItem = document.querySelector('#name-input');
+const textName = document.querySelector('#name-output');
 
 inputItem.addEventListener('input', event => {
     if (event.target.value.trim().length > 0) {
